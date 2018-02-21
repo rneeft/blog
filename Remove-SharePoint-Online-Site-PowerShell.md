@@ -1,6 +1,6 @@
 # Removing a SharePoint Online Site Collection with Powershell
 
-Removing a Site collection in the admin page in SharePoint takes 30 days to be removed. With PowerShell did can be faster. 
+Removing a Site collection in the admin page in SharePoint takes 30 days to be removed. With PowerShell did can be faster.
 
 ```powershell
 PS C:\> import-module Microsoft.Online.Sharepoint.PowerShell
