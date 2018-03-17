@@ -1,2 +1,2 @@
 # blog
-Something I write about stuff. Mainly for myself. 
+Sometimes I write about stuff. Mainly for myself. 
