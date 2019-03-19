@@ -1,4 +1,4 @@
-#How to merge two PDF file with using PDFSharp
+# How to merge two PDF file with using PDFSharp
 
 Nuget: PDFSharp (by empira Software GmbH)
 
