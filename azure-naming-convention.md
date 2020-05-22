@@ -45,4 +45,35 @@ Some of the resources are noted down below:
 ## Location abbreviations
 
 | Location      | Abbreviation |
-| 
+| --- | ---
+|Australia Central|AC
+|Australia Central 2|ACT
+|Australia East|AE
+|Australia South East|ASE
+|Brazil South|BS
+|Canada Central|CC
+|Canada East|CE
+|Central India|CI
+|Central Us|CU
+|East Asia|EA
+|East Us|EU
+|East Us 2|EUT
+|France South|FS
+|Japan East|JE
+|Japan West|JW
+|Korea Central|KC
+|Korea South|KS
+|North Central Us|NCU
+|North Europe|NE
+|South Africa North|SAN
+|South Africa West|SAW
+|South Central Us|SCU
+|South East Asia|SEA
+|South India|SI
+|Uk South|UKS
+|Uk West|UKW
+|West Central Us|WCU
+|West Europe|WE
+|West India|WI
+|West Us|WU
+|West Us 2|WUT
