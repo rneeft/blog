@@ -1,9 +1,9 @@
 # Naming conventions
-Within Azure, every resource must have a unique name. To help with naming I've come up with a pattern that I'm using for my own project.
+Within Azure, every resource must have a unique name. It can be helpful to create a naming convention for your Azure resources. This will prevent naming issues and will help you finding your resources quicker. To help myself I apply the convention below for my project.
 
-## Default naming pattern
+## Default naming convention
 
-**DO** apply the following pattern while naming resources:
+**DO** apply the following convention while naming resources:
 
  AAA-BBB-CCC-DDD-EEE (ex: CHR-MTA-ASP-DEV-WE)
 
@@ -15,17 +15,17 @@ Within Azure, every resource must have a unique name. To help with naming I've c
 | DDD  | [Stage](#stages) | DEV, PRD
 | EEE  | [Location](#locations) | WE (West Europe)
 
-> *Some Azure resources prevents the use of the above pattern. However try to stay close to this pattern. For example an Azure Storage Account, apply the following pattern: aaabbbcccdddeee*
+> *Some Azure resources prevents the use of the above convention. However, try to stay close to this convention. For example: Azure Storage Account, apply the following convention: aaabbbcccdddeee*
 
-**AVOID** small letter in the abbreviation.
+**AVOID** small letters in the abbreviation.
 
-**CONSIDER** three letter abbreviations for each part of the template. 
+**CONSIDER** three letter abbreviations for each part of the template.
 
-**DO** use the abbreviations as specified in the tables below:
+**DO** use the abbreviations as specified in the tables below.
 
-**DO NOT** apply this pattern to DNS Zones since they are named after the domain name and are by definition unique. 
+**DO NOT** apply this convention to 'DNS Zones' since they are named after the domain name and are by definition unique. 
 
-## Resources
+### Resources
 Some of the resources are noted down below:
 
 | Resource           | Abbreviation 
@@ -35,6 +35,7 @@ Some of the resources are noted down below:
 |Azure Function App|AFA
 |CDN Endpoint|CEN
 |CDN Profile|CDN
+|DNS Zone | ---
 |Key Vault|KV
 |Resource Group|RG
 |Shared Dashboard|SDB
@@ -42,7 +43,7 @@ Some of the resources are noted down below:
 |User managed identity|UMI
 |Web site|WEB
 
-## Stages
+### Stages
 | Abbreviation | Stage | Description
 | --- | --- | ---
 | RND | Research And Development | Used for manually created resources in Azure. Most of them are try outs, click and play or quick demo's. Resources have a short life span. 
@@ -51,7 +52,7 @@ Some of the resources are noted down below:
 | TST/ACC | Test/Acceptance | Stage dedicated for testing purposes, manually changes are strongly discouraged.
 | PRD | Production | Speaks for itself. Manually changes are not allowed (unless for Priority bugsfixes or changes not supported by the Azure framework, like apply a SSL certificate for CDN Endpoints)
 
-## Locations
+### Locations
 
 | Location      | Abbreviation |
 | --- | ---
@@ -86,3 +87,6 @@ Some of the resources are noted down below:
 |West India|WI
 |West Us|WU
 |West Us 2|WUT
+
+## Conclusion
+Which convention are you using or are you going to start a convention now? Let me know what you think in the comments below. 
