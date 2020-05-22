@@ -12,8 +12,8 @@ Within Azure, every resource must have a unique name. To help with naming I've c
 | AAA  | Company | CHR (Chroomsoft)
 | BBB  | Product | MTA (My Template Abbreviation)
 | CCC  | [Resource](#resources) | ASP (App Service Plan)
-| DDD  | [Stage](#stage) | DEV, PRD
-| EEE  | [Location](#location) | WE (West Europe)
+| DDD  | [Stage](#stages) | DEV, PRD
+| EEE  | [Location](#locations) | WE (West Europe)
 
 > *Some Azure resources prevents the use of the above pattern. However try to stay close to this pattern. For example an Azure Storage Account, apply the following pattern: aaabbbcccdddeee*
 
@@ -25,7 +25,7 @@ Within Azure, every resource must have a unique name. To help with naming I've c
 
 **DO NOT** apply this pattern to DNS Zones since they are named after the domain name and are by definition unique. 
 
-## Resource {#resources}
+## Resources
 Some of the resources are noted down below:
 
 | Resource           | Abbreviation 
@@ -42,7 +42,7 @@ Some of the resources are noted down below:
 |User managed identity|UMI
 |Web site|WEB
 
-## Stages {#stages}
+## Stages
 | Abbreviation | Stage | Description
 | --- | --- | ---
 | RND | Research And Development | Used for manually created resources in Azure. Most of them are try outs, click and play or quick demo's. Resources have a short life span. 
@@ -51,7 +51,7 @@ Some of the resources are noted down below:
 | TST/ACC | Test/Acceptance | Stage dedicated for testing purposes, manually changes is strongly discouraged.
 | PRD | Production | Speaks for itself. Manually changes are not allowed (unless for Priority bugsfixes or changes not supported by the Azure framework, like apply a SSL certificate for CDN Endpoints)
 
-## Location {#location}
+## Locations
 
 | Location      | Abbreviation |
 | --- | ---
