@@ -1,5 +1,5 @@
 # Naming conventions
-Within Azure, every resource must have a unique name. It can be helpful to create a naming convention for your Azure resources. This will prevent naming issues and will help you finding your resources quicker. To help myself I apply the convention below for my project.
+Within Azure, every resource must have a unique name. It can be helpful to create a naming convention for your Azure resources. This will prevent naming issues and will help you finding your resources quicker. The following convention below have proved to be very helpful for my project.
 
 ## Default naming convention
 
@@ -48,9 +48,9 @@ Some of the resources are noted down below:
 | --- | --- | ---
 | RND | Research And Development | Used for manually created resources in Azure. Most of them are try outs, click and play or quick demo's. Resources have a short life span. 
 | POC | Proof Of Concept | Stage for a bit more serious resources, still a lot of try outs but most of the resources are created with (manually executed) ARM templates.
-| DEV | Development | First stage featuring fully automated deployed resources with ARM templates (or Azure CLI commands) inside an Azure DevOps pipeline. Used for early development, not all changes to resources are fully automated however must be automated ASAP.
-| TST/ACC | Test/Acceptance | Stage dedicated for testing purposes, manually changes are strongly discouraged.
-| PRD | Production | Speaks for itself. Manually changes are not allowed (unless for Priority bugsfixes or changes not supported by the Azure framework, like apply a SSL certificate for CDN Endpoints)
+| DEV | Development | First stage featuring fully automated deployed resources with ARM templates (or Azure CLI commands) inside an Azure DevOps pipeline. Used for early development, not all changes to resources are fully yet, but must be automated ASAP.
+| TST/ACC | Test/Acceptance | Stage dedicated for testing purposes, manual changes are strongly discouraged.
+| PRD | Production | Speaks for itself. Manual changes are not allowed (unless for Priority bugsfixes or changes not supported by the Azure framework, like applying a SSL certificate for CDN Endpoints)
 
 ### Locations
 
@@ -89,4 +89,4 @@ Some of the resources are noted down below:
 |West Us 2|WUT
 
 ## Conclusion
-Which convention are you using or are you going to start a convention now? Let me know what you think in the comments below. 
+Which conventions are you currently using or are you going to start a naming convention now? Let me know what you think in the comments below. 
