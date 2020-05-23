@@ -1,5 +1,5 @@
 # Naming conventions
-Within Azure, every resource must have a unique name. It can be helpful to create a naming convention for your Azure resources. This will prevent naming issues and will help you finding your resources quicker. The following convention below have proved to be very helpful for my project.
+Within Azure, every resource must have a unique name. It can be helpful to create a naming convention for your Azure resources. This will prevent naming issues and will help you finding your resources quicker. The following convention below have proved to be very helpful for my projects.
 
 ## Default naming convention
 
