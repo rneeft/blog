@@ -46,11 +46,10 @@ Some of the resources are noted down below:
 ### Stages
 | Abbreviation | Stage | Description
 | --- | --- | ---
-| RND | Research And Development | Used for manually created resources in Azure. Most of them are try outs, click and play or quick demo's. Resources have a short life span. 
-| POC | Proof Of Concept | Stage for a bit more serious resources, still a lot of try outs but most of the resources are created with (manually executed) ARM templates.
+| POC | Proof Of Concept | Used for manually created resources in Azure. Some of them are try outs, click and play or quick demo's. Others are more serious resources of which some of them are (manually executed) ARM templates.
 | DEV | Development | First stage featuring fully automated deployed resources with ARM templates (or Azure CLI commands) inside an Azure DevOps pipeline. Used for early development, not all changes to resources are fully yet, but must be automated ASAP.
 | TST/ACC | Test/Acceptance | Stage dedicated for testing purposes, manual changes are strongly discouraged.
-| PRD | Production | Speaks for itself. Manual changes are not allowed (unless for Priority bugsfixes or changes not supported by the Azure framework, like applying a SSL certificate for CDN Endpoints)
+| PRD | Production | Speaks for itself. Manual changes are not allowed (unless for Priority bugfixes or changes not supported by the Azure framework, like applying a SSL certificate for CDN Endpoints)
 
 ### Locations
 
